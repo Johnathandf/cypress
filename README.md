@@ -17,22 +17,20 @@ Abra um terminal ou prompt de comando e navegue até o diretório do projeto.
 
 Instale as dependências do projeto executando o seguinte comando:
 
-Copy code
+
 npm install
 ou, se estiver usando o yarn:
 
-Copy code
+
 yarn install
 Executando os Testes
 Para executar os testes automatizados usando Cypress e Cucumber, execute o seguinte comando no terminal ou prompt de comando:
 
-bash
-Copy code
+
 npm test
 ou, com o yarn:
 
-bash
-Copy code
+
 yarn test
 Isso iniciará o Cypress e ele executará os cenários de teste definidos nos arquivos de funcionalidades do Cucumber localizados no diretório cypress/integration.  
 
